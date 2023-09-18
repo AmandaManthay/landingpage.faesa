@@ -3,10 +3,10 @@
 
    $nome = $_POST["nome"];
    $email = $_POST["email"];
-   $endereco = $_POST["endereco"];
+   $telefone = $_POST["telefone"];
    $mensagem = $_POST["mensagem"];
 
-   $sql = "INSERT INTO cadastro (nome, email, endereco, mensagem) VALUES ('$nome', '$email', '$endereco', '$mensagem')";
+   $sql = "INSERT INTO cadastro (nome, email, telefone, mensagem) VALUES ('$nome', '$email', '$telefone', '$mensagem')";
    $result = $mysqli->query($sql);
 
    if ($result) {

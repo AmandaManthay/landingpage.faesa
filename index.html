@@ -8,14 +8,18 @@
     <meta charset="UTF-8">
     <meta name="description" content="Formulario">
     <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="script.js"></script>
+
     <!--fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
+
            <title>Projeto Integrador IV-A</title>
 
 </head>
+
    <img id="menina" src="img/meninafaesa.webp" alt="faesa">
 
 
@@ -33,8 +37,8 @@
              <input type="text"  placeholder="Nome" name="nome" required size="40" width="50"/>
              <label>E-email</label>
              <input type="text" placeholder="E-mail" name="email" required/>
-             <label>Endereço</label>
-             <input type="text" placeholder="Endereço" name="endereco" required/>
+             <label>Telefone</label>
+             <input type="text" placeholder="Telefone" id="telefone" name="telefone" maxlength="15" required/>
              <label>Mensagem</label>
              <textarea placeholder="Mensagem" name="mensagem" cols="30" rows="10" minlength="10" maxlength="100"></textarea>
              <input id="enviar" type="submit" name="Enviar" value="Enviar">
